@@ -1,0 +1,26 @@
+@import url(../css/header.css);
+@import url(../css/banner.css);
+
+:root{
+
+    --cor-de-fundo: #EBECEE;
+    --cor-icones-navegacao: #002F52;
+    --branco-pagina: #FFFFFF;
+    --branco-opacidade: rgba(255, 255, 255, 0.9);
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+
+}
+
+body{
+
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
