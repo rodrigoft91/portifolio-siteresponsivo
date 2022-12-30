@@ -5,7 +5,7 @@
     align-items: center;
     gap: 1.5rem;
     text-align: center;
-    padding: 2rem;
+    padding: 2.2rem;
     background: var(--azul-degrade);
     color: var(--branco-pagina);
 }
@@ -30,13 +30,22 @@
     background-color: transparent;
     color: var(--branco-pagina);
     border: 1px solid var(--branco-pagina);
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     padding: 0.5rem 1rem;
-    width: 80vw;
+    width: 90vw;
 }
 
 .banner__pesquisa::placeholder{
     text-align: center;
+    padding-left: 3.2rem;
     color: var(--branco-pagina);
+    font-size: 0.8rem;
+    background-image: url(../img/Pesquisa.svg);
+    background-repeat: no-repeat;
+    background-position: 3.5rem;
+
+
 }
+
+
 
