@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/principal.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="./assets/font-awesome/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,8 +63,36 @@
     <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input type="search" id="proxima-leitura" aria-label="" class="banner__pesquisa" placeholder="Qual será sua próxima leitura">
+        <input type="search" id="proxima-leitura" aria-label="" class="banner__pesquisa"
+            placeholder="Qual será sua próxima leitura">
     </section>
+
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Últimos Lançamentos</h2>
+
+          
+            <div class="carousel" data-flickity='{"freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false}'>
+                <!-- Slides -->
+                <div class="carousel-cell"><img src="./assets/img/Nodejs.svg" alt="Livro de Node JS"></div>
+                <div class="carousel-cell"><img src="./assets/img/ApacheKafka.svg" alt="Livro Apache Kafka"></div>
+                <div class="carousel-cell"><img src="./assets/img/Portugol.svg" alt=""></div>
+                <div class="carousel-cell"><img src="./assets/img/Portugol.svg" alt=""></div>
+                <div class="carousel-cell"><img src="./assets/img/Portugol.svg" alt=""></div>
+                <div class="carousel-cell"><img src="./assets/img/Portugol.svg" alt=""></div>
+
+            </div>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 
 </body>
 
