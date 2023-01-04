@@ -1,0 +1,21 @@
+.carrosel__titulo {
+
+    background-color: var(--branco-pagina);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.carousel-cell img {
+    width: 40vw;
+    padding: 1rem .3rem;
+
+}
+
+.flickity-page-dots {
+
+    top: 0;
+
+  }
